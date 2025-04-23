@@ -1,0 +1,3 @@
+C:/Users/MSI GF63/CLionProjects/ARCANEGAME/cmake-build-debug/CMakeFiles/ARCANEGAME.dir
+C:/Users/MSI GF63/CLionProjects/ARCANEGAME/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/MSI GF63/CLionProjects/ARCANEGAME/cmake-build-debug/CMakeFiles/rebuild_cache.dir

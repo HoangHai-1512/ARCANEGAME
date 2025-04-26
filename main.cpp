@@ -158,7 +158,6 @@ if (!init())
                     SDL_GetMouseState(&x, &y);
                     if (x >= tutorialQuit.x && x <= tutorialQuit.x + tutorialQuit.w && y >= tutorialQuit.y && y <= tutorialQuit.y + tutorialQuit.h)
                     {
-                        cout << " click Quit tutorial" << endl;
                         currentState = MENU;
                         SDL_RenderClear(Globals::g_Renderer);
                     }
@@ -180,6 +179,12 @@ if (!init())
         {
             SDL_DestroyWindow(Globals::g_Window);
             SDL_DestroyRenderer(Globals::g_Renderer);
+            SDL_DestroyTexture(background);
+            SDL_DestroyTexture(playButton);
+            SDL_DestroyTexture(quitButton);
+            SDL_DestroyTexture(title);
+            SDL_DestroyTexture(tutorialButton);
+            SDL_DestroyTexture(tutorialBackgroud);
             Game game;
             game.Run(gameRunning);
             return 0;

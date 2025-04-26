@@ -15,7 +15,7 @@ public:
     Boss(int x, int y);
     void render(SDL_Renderer* p_renderer, SDL_Texture* p_texture);
     SDL_Rect getRect();
-    pair<float,float> bossPositioning();
+    pair<int,int> bossPositioning();
 private:
     SDL_Rect rect;
 };

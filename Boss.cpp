@@ -22,15 +22,15 @@ SDL_Rect Boss::getRect()
     return rect;
 }
 
-pair<float, float> Boss::bossPositioning()
+pair<int, int> Boss::bossPositioning()
 {
     return {rect.x - 50 , rect.y + 120 };
 }
 
 void spawnBoss(vector<pair<Boss,int>>& Bosses)
 {
-    float x = Globals::SCREEN_GAME_WIDTH - 233;
-    float y = rand() % (Globals::SCREEN_GAME_HEIGHT - 213);
+    int x = Globals::SCREEN_GAME_WIDTH - 233;
+    int y = rand() % (Globals::SCREEN_GAME_HEIGHT - 213);
     Boss bosses(x,y);
     Bosses.push_back({bosses,0});
 }

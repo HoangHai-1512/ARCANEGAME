@@ -1,2 +1,2 @@
 # ARCANE-GAME
- game project of ltnc
+This game is basically about shooting gun to eliminate enimies( including ghosts and guys carrying gun). Press WASD to move the players, left-mouse to shoot. Player has to reach  5000 points to win this game( ghost = 1 point and guy holding gun = 5 points), if all player's hearts are lost or all dogs in the left screen are eliminated, the game would end. Ghost has 1 hp and guys carrying gun has 3.   
